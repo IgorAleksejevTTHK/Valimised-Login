@@ -63,7 +63,7 @@ if ($_SESSION['tuvastamine'] == 'admin') {
             <ul>
                 <li><a href="valimised.php">Kasutaja leht</a></li>
                 <?php
-                // Показываем админскую ссылку только если вошёл admin
+
                 if ($_SESSION['tuvastamine'] === 'admin') {
                     echo '<li><a href="valimisedAdmin.php">Admin leht</a></li>';
                 }
@@ -120,3 +120,4 @@ if ($_SESSION['tuvastamine'] == 'admin') {
 </body>
 </html>
 <?php
+
